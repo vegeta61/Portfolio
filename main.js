@@ -1,3 +1,4 @@
+const navItems = document.querySelectorAll(".nav-item");
 const typeWriter = function(txtElement, words, wait = 3000) {
   this.txtElement = txtElement;
   this.words = words;
